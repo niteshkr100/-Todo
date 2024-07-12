@@ -1,0 +1,134 @@
+body{
+    padding: 50px;
+    height: 100vh;
+    background-color: black;
+}
+.mainContainer{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .container{
+    width: 30%;
+    /* remove height later */
+    height:  auto;  
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+   }
+   .imgLogo{
+     width: 80px;
+     border-radius: 50%;
+   }
+   .title{
+    font-size: 20px;
+    font-family: cursive;
+   }
+   .inputNote{
+    background-color:whitesmoke;
+    padding: 20px;
+    height: 10px;
+    width:70% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px  auto;
+   }
+   /* input box */
+   input{
+    padding: 14px;  
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+   }
+   .mleft{
+    padding: 0;
+    margin: 0;
+    margin-left: -41px;
+    cursor: pointer;
+    font-size: 26px;
+    border-radius: 50%;
+   }
+  
+   .mleft:hover{
+    color: green;
+   }
+  
+   .content{
+    background-color:rgb(245, 189, 143);
+    width:100% ;
+    box-sizing: border-box;
+    padding: 1px;
+
+   }
+
+  .addItem{
+    width: 300px;
+    padding: 10px 15px;
+    background-color: #f6f66f;
+    color: black;
+    margin:20px auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  h3{
+    margin: 0;
+    padding: 0;
+  }
+  .edit:hover{
+    cursor: pointer;
+    color: green;
+  }
+  .trash{
+    margin-left: 14px;
+    font-size: 25px;
+  }
+  .trash:hover{
+    cursor: pointer;
+    color: red;
+  }
+  .addItem:hover{
+    background-color: rgb(241, 175, 21);
+  }
+  
+  .btn{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+   /* media query */
+   @media(max-width:1150px) {
+    .container{
+      width: 60%;
+      
+    }
+    .container{
+      margin: 50px;
+    }
+   }
+   @media(max-width:500px) {
+    body{
+      padding: 0px;
+      height:100vh;
+       
+  }
+    .container{
+      width: 90%;
+    }
+   }
